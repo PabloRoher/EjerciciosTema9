@@ -13,4 +13,26 @@ public class giroscopios extends Vehiculos{
         this.autonomia = autonomia;
         this.altura = altura;
     }
+
+
+    public int getAutonomia() {
+        return autonomia;
+    }
+
+    public void setAutonomia(int autonomia) {
+        this.autonomia = autonomia;
+    }
+
+    public float getAltura() {
+        return altura;
+    }
+
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+
+    public float AlquilarVehiculo(){
+        return (float) 29.90;
+    }
+
 }

@@ -12,4 +12,19 @@ public class Bicicletas extends Vehiculos{
         this.numeroMarchas = numeroMarchas;
     }
 
+
+
+    public int getNumeroMarchas() {
+        return numeroMarchas;
+    }
+
+    public void setNumeroMarchas(int numeroMarchas) {
+        this.numeroMarchas = numeroMarchas;
+    }
+
+    public float AlquilarVehiculo(){
+        return (float) 4.90;
+    }
+
+
 }
