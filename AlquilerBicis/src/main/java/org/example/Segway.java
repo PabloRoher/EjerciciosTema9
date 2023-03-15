@@ -11,6 +11,7 @@ public class Segway extends Vehiculos{
         this.autonomia = autonomia;
     }
 
+
     public int getAutonomia() {
         return autonomia;
     }
@@ -22,4 +23,5 @@ public class Segway extends Vehiculos{
     public float AlquilarVehiculo(){
         return (float) 18.90;
     }
+
 }

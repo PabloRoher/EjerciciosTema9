@@ -13,6 +13,7 @@ public class Bicicletas extends Vehiculos{
     }
 
 
+
     public int getNumeroMarchas() {
         return numeroMarchas;
     }
@@ -24,5 +25,6 @@ public class Bicicletas extends Vehiculos{
     public float AlquilarVehiculo(){
         return (float) 4.90;
     }
+
 
 }
