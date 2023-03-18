@@ -17,6 +17,7 @@ public abstract class Vehiculos {
         this.fechaCompra = fechaCompra;
     }
 
+
     public String getMarca() {
         return marca;
     }
@@ -41,7 +42,14 @@ public abstract class Vehiculos {
         this.fechaCompra = fechaCompra;
     }
 
+
     public abstract float AlquilarVehiculo();
+
+    public float AlquilarVehiculo(){
+        return 0;
+    }
+
+
 
 
 }

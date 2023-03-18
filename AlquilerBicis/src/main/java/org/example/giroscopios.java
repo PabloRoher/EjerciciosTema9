@@ -14,6 +14,7 @@ public class giroscopios extends Vehiculos{
         this.altura = altura;
     }
 
+
     public int getAutonomia() {
         return autonomia;
     }
@@ -34,8 +35,10 @@ public class giroscopios extends Vehiculos{
         return (float) 29.90;
     }
 
+
     @Override
     public String toString() {
         return "Giroscopio " + marca + " " + modelo + " ( " + fechaCompra + " ) " + autonomia + " km de autonomia y " + altura + " metros de altura";
     }
+
 }

@@ -11,6 +11,7 @@ public class Segway extends Vehiculos{
         this.autonomia = autonomia;
     }
 
+
     public int getAutonomia() {
         return autonomia;
     }
@@ -24,8 +25,10 @@ public class Segway extends Vehiculos{
     }
 
 
+
     @Override
     public String toString() {
         return "Segway " + marca + " " + modelo + " ( " + fechaCompra + " ) " + autonomia + " km de autonomia";
     }
+
 }

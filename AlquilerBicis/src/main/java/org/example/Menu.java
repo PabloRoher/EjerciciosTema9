@@ -1,5 +1,6 @@
 package org.example;
 
+
 import java.time.LocalDate;
 import java.util.HashMap;
 
@@ -26,6 +27,12 @@ public class Menu {
         for (String key : vehiculos.keySet() ) {
             System.out.println(key + " " + vehiculos.get(key));
         }
+
+
+public class Menu {
+
+    public void menuPrincipal() {
+        
 
     }
 }
