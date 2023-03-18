@@ -13,7 +13,6 @@ public class Bicicletas extends Vehiculos{
     }
 
 
-
     public int getNumeroMarchas() {
         return numeroMarchas;
     }
@@ -26,5 +25,10 @@ public class Bicicletas extends Vehiculos{
         return (float) 4.90;
     }
 
+
+    @Override
+    public String toString() {
+        return "Bicis " + marca + " " + modelo + " ( " + fechaCompra + " ) " + numeroMarchas + " velocidades";
+    }
 
 }

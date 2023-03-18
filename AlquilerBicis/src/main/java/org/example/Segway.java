@@ -24,4 +24,11 @@ public class Segway extends Vehiculos{
         return (float) 18.90;
     }
 
+
+
+    @Override
+    public String toString() {
+        return "Segway " + marca + " " + modelo + " ( " + fechaCompra + " ) " + autonomia + " km de autonomia";
+    }
+
 }
